@@ -12,12 +12,13 @@ class BlogShow extends Component {
       return '';
     }
 
-    const { title, content } = this.props.blog;
+    const { title, content, imageUrl } = this.props.blog;
 
     return (
       <div>
         <h3>{title}</h3>
         <p>{content}</p>
+        <img src={`https://s3-us-west-1.amazonaws.com/blog-bucket-onfqzmpgvr/${imageUrl}`} />
       </div>
     );
   }

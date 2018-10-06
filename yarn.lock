@@ -229,9 +229,9 @@ atob@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.1.tgz#ae2d5a729477f289d60dd7f96a6314a22dd6c22a"
 
-aws-sdk@^2.293.0:
-  version "2.293.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.293.0.tgz#5474110972d1595f4386e3e0c350af9f6b71ccc8"
+aws-sdk@^2.296.0:
+  version "2.296.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.296.0.tgz#109016088b7edc063a5e5bc36537632e02e91447"
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -915,6 +915,10 @@ bser@^2.0.0:
   resolved "https://registry.yarnpkg.com/bser/-/bser-2.0.0.tgz#9ac78d3ed5d915804fd87acb158bc797147a1719"
   dependencies:
     node-int64 "^0.4.0"
+
+bson@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/bson/-/bson-1.1.0.tgz#bee57d1fb6a87713471af4e32bcae36de814b5b0"
 
 bson@~1.0.4, bson@~1.0.5:
   version "1.0.9"
@@ -3145,11 +3149,11 @@ mongodb-core@2.1.18:
     bson "~1.0.4"
     require_optional "~1.0.0"
 
-mongodb-core@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/mongodb-core/-/mongodb-core-3.1.0.tgz#af91f36fd560ed785f4e61e694432df4d3698aad"
+mongodb-core@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/mongodb-core/-/mongodb-core-3.1.2.tgz#c85055a2691ac3661951e557a0d6482796ad5c42"
   dependencies:
-    bson "~1.0.4"
+    bson "^1.1.0"
     require_optional "^1.0.1"
   optionalDependencies:
     saslprep "^1.0.0"
@@ -3162,11 +3166,11 @@ mongodb@2.2.34:
     mongodb-core "2.1.18"
     readable-stream "2.2.7"
 
-mongodb@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.1.1.tgz#c018c4b277614e8b1e08426d5bcbe1a7e5cdbd74"
+mongodb@3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.1.3.tgz#7523d438d190e80a757c5947dbc226768cb7b1d5"
   dependencies:
-    mongodb-core "3.1.0"
+    mongodb-core "3.1.2"
 
 mongoose-legacy-pluralize@1.0.2:
   version "1.0.2"
@@ -3190,16 +3194,16 @@ mongoose@^4.4.6:
     regexp-clone "0.0.1"
     sliced "1.0.1"
 
-mongoose@^5.2.8:
-  version "5.2.8"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.2.8.tgz#dd74ce0c4df803cb816c37ee1228d6663e2c2254"
+mongoose@^5.2.9:
+  version "5.2.9"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.2.9.tgz#1b4a01de776504193ecdeda87c0c7d1962c2d632"
   dependencies:
     async "2.6.1"
     bson "~1.0.5"
     kareem "2.2.1"
     lodash.get "4.4.2"
-    mongodb "3.1.1"
-    mongodb-core "3.1.0"
+    mongodb "3.1.3"
+    mongodb-core "3.1.2"
     mongoose-legacy-pluralize "1.0.2"
     mpath "0.4.1"
     mquery "3.1.2"
